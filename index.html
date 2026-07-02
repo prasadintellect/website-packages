@@ -103,7 +103,7 @@
   }
   .nav-inner{ display:flex; align-items:center; justify-content:space-between; padding:16px 28px; max-width:var(--container); margin:0 auto; }
   .brand{ display:flex; align-items:center; gap:10px; text-decoration:none; color:var(--ink); }
-  .brand-mark{ width:34px; height:34px; border-radius:8px; background:var(--ink); display:flex; align-items:center; justify-content:center; color:var(--brass); }
+  .brand-mark{ width:34px; height:34px; border-radius:8px; display:flex; align-items:center; justify-content:center; color:var(--brass); }
   .brand-mark svg{ width:18px; height:18px; }
   .brand-name{ font-family:var(--font-display); font-weight:700; font-size:17px; letter-spacing:.01em; }
   .brand-name span{ display:block; font-family:var(--font-mono); font-weight:400; font-size:10.5px; letter-spacing:.14em; color:var(--muted); text-transform:uppercase; margin-top:1px; }
@@ -420,7 +420,7 @@
 
   .footer-bottom{ margin-top:70px; padding-top:28px; border-top:1px solid rgba(245,246,242,.14); display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:16px; }
   .footer-bottom .fbrand{ display:flex; align-items:center; gap:10px; }
-  .footer-bottom .fbrand .brand-mark{ background:var(--brass); color:var(--ink); }
+  .footer-bottom .fbrand .brand-mark{ color:var(--ink); }
   .footer-bottom .fmeta{ font-size:13px; color:rgba(245,246,242,.5); }
   .footer-links{ display:flex; gap:20px; }
   .footer-links a{ font-size:13.5px; color:rgba(245,246,242,.7); text-decoration:none; }
@@ -471,7 +471,7 @@
 <header class="site-nav">
   <div class="nav-inner">
     <a href="#top" class="brand">
-      <span class="brand-mark"><svg class="icon" style="stroke:currentColor"><use href="#i-layers"/></svg></span>
+      <span class="brand-mark"><img src="assets/images/cultifier-small.png"></span>
       <span class="brand-name">Cultifier<span>Web Studio</span></span>
     </a>
     <nav class="nav-links" id="navLinks">
@@ -479,10 +479,11 @@
       <a href="#compare">Compare</a>
       <a href="#services">Services</a>
       <a href="#why">Why Us</a>
+      <a href="https://upwingmedia.com/" target="_blank">Marketing</a>
       <a class="btn btn-primary btn-sm" href="#contact" style="margin-top:8px;">Get a Quote</a>
     </nav>
     <div class="nav-cta">
-      <a href="#contact" class="btn btn-outline btn-sm btn-sm-desktop">Get a Quote</a>
+    
       <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
         <svg class="icon" id="navToggleIcon"><use href="#i-menu"/></svg>
       </button>
@@ -874,7 +875,7 @@
 
     <div class="footer-bottom">
       <div class="fbrand">
-        <span class="brand-mark"><svg class="icon"><use href="#i-layers"/></svg></span>
+        <span class="brand-mark"><img src="assets/images/cultifier-small.png"></span>
         <span class="fmeta">© Cultifier Web Studio — 2026 Inc. All rights reserved</span>
       </div>
       <div class="footer-links">
